@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎧 Pallavi's Music Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="player">
+    <div class="album-art">
+      <img id="album" src="https://cdn.pixabay.com/photo/2017/01/10/03/54/music-1967480_1280.jpg" alt="Album Art">
+    </div>
+
+    <div class="song-info">
+      <h2 id="title">Song Title</h2>
+      <p id="artist">Artist</p>
+    </div>
+
+    <div class="controls">
+      <button id="prev"><i class="fas fa-backward"></i></button>
+      <button id="play" class="play-btn"><i class="fas fa-play"></i></button>
+      <button id="next"><i class="fas fa-forward"></i></button>
+    </div>
+
+    <div class="progress-container" id="progress-container">
+      <div class="progress" id="progress"></div>
+    </div>
+
+    <div class="playlist" id="playlist">
+    </div>
+  </div>
+
+  <audio id="audio"></audio>
+
+  <script src="https://kit.fontawesome.com/a81368914c.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
