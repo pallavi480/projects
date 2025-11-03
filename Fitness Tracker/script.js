@@ -55,4 +55,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   updateUI();
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> dd01fcecdece62d2739b1c7d5e5ed2b1a88eacc4
